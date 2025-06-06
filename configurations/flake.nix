@@ -51,10 +51,11 @@
     ...
   }: let
     # TODO replace with your own username, email, system, and hostname
-    username = "__USERNAME__";
-    useremail = "__USEREMAIL__";
-    system = "__SYSTEM__"; # aarch64-darwin or x86_64-darwin
-    hostname = "__HOSTNAME__";
+    username = "jackgaarkeuken";
+    useremail = "jack.gaarkeuken@gmail.com";  # optional
+    system = "aarch64-darwin";
+    hostname = "jack";
+
 
     specialArgs =
       inputs
